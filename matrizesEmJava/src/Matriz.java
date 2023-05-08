@@ -1,8 +1,8 @@
 public class Matriz {
     static void mostrarMatriz(int[][] matriz){
-        for (int i = 0; i < matriz.length; i++) {
+        for (int i = 0; i < matriz[0].length; i++) {
             for (int j = 0; j < matriz.length; j++) {
-                System.out.print(String.format("|%-10d|", matriz[i][j]));
+                System.out.print(String.format("|%-10d|", matriz[j][i]));
             }
             System.out.println();
         }
