@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-        Float[][] matriz = new Float[3][4];
+        Float[][] matriz = new Float[3][10];
         Scanner ler = new Scanner(System.in);
         
         System.out.println("Digite as notas dos alunos: ");
