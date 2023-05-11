@@ -1,11 +1,10 @@
 public class Matriz {
 
     static void mostrarMenorNota(Float[][] matriz){
-        Float menor = matriz[0][0];
-        int indice = 0;
 
         for (int i = 0; i < matriz[0].length; i++) {
-            menor = matriz[0][i];
+            Float menor = matriz[0][i];
+            int indice = 0;
             
             System.out.print(String.format("Menor nota do aluno #%d: ", i + 1));
             for (int j = 0; j < matriz.length; j++) {
